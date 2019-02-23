@@ -1,11 +1,11 @@
 package plugin;
 
 import scape.editor.fs.io.RSBuffer;
-import scape.editor.gui.plugin.Plugin;
-import scape.editor.gui.plugin.extension.config.ObjectDefinitionExtension;
+import scape.editor.gui.plugin.PluginDescriptor;
+import scape.editor.gui.plugin.extension.config.ConfigExtension;
 
-@Plugin(name="Vanilla 317 Object Definition Plugin", authors = "Nshusa", version = "1.1.0")
-public class ObjectDefPlugin extends ObjectDefinitionExtension {
+@PluginDescriptor(name="Vanilla 317 Object Definition Plugin", authors = "Nshusa", version = "2.0.0")
+public class Plugin extends ConfigExtension {
 
     @Override
     public String applicationIcon() {
@@ -25,7 +25,7 @@ public class ObjectDefPlugin extends ObjectDefinitionExtension {
     }
 
     @Override
-    protected String getFileName() {
+    public String getFileName() {
         return "loc";
     }
 

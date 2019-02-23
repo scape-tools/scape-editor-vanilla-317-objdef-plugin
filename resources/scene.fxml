@@ -19,7 +19,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onMouseClicked" onMouseDragged="#handleMouseDragged" onMousePressed="#handleMousePressed" prefHeight="500.0" prefWidth="700.0" styleClass="cod-gray" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="plugin.ObjectDefController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#onMouseClicked" onMouseDragged="#handleMouseDragged" onMousePressed="#handleMousePressed" prefHeight="500.0" prefWidth="700.0" styleClass="cod-gray" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="plugin.Controller">
    <center>
       <VBox BorderPane.alignment="CENTER">
          <children>
