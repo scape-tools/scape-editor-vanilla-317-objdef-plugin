@@ -16,7 +16,7 @@ import scape.editor.gui.model.KeyModel
 import scape.editor.gui.model.NamedValueModel
 import scape.editor.gui.model.ValueModel
 import scape.editor.gui.plugin.PluginManager
-import scape.editor.gui.plugin.extension.config.ConfigExtension
+import scape.editor.gui.plugin.extension.ConfigExtension
 import scape.editor.gui.util.FXDialogUtil
 import java.net.URL
 import java.util.*

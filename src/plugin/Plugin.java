@@ -1,11 +1,12 @@
 package plugin;
 
 import scape.editor.fs.io.RSBuffer;
+import scape.editor.gui.plugin.IPlugin;
 import scape.editor.gui.plugin.PluginDescriptor;
-import scape.editor.gui.plugin.extension.config.ConfigExtension;
+import scape.editor.gui.plugin.extension.ConfigExtension;
 
 @PluginDescriptor(name="Vanilla 317 Object Definition Plugin", authors = "Nshusa", version = "2.0.0")
-public class Plugin extends ConfigExtension {
+public class Plugin extends ConfigExtension implements IPlugin {
 
     @Override
     public String applicationIcon() {
